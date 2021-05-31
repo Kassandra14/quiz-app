@@ -19,8 +19,8 @@ SO THAT I can gauge my progress compared to my peers
 
 ## Github Repo:
 
-https://github.com/Kassandra14/Kassandra14.github.io/tree/main/week-4-quiz-app
+https://github.com/Kassandra14/quiz-app
 
 ## Github deployed app:
 
-https://kassandra14.github.io/week-4-quiz-app/index.html
+https://kassandra14.github.io/quiz-app/Develop/index.html
