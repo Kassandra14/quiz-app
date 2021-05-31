@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    background-color:rgb(106, 165, 216);
+}
+
+
+.container-fluid {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+    padding: 40px;
+    padding-top: 50px;
+    color: hsl(206, 17%, 28%);
+}
+
+.btn {
+    padding: 25px, 25px;
+}
+
+.start-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px, 20px;
+}
+
+#submit-button {
+    font-size: 1rem;
+    font-weight: bold;
+    width: 150px;
+    padding: 410px, 40px;
+
+}
+/*.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: pink;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px, 2px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns:
+    margin: 20px, 0;
+}
+
+.btn {
+    background-color: rgb(35, 185, 240);
+}
+
+#question {
+    font-size: large;
+}
+*/
+
+
+.hide {
+    display: none;
+}
+
+.timer {
+    position: absolute;
+}
+
+.slide{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  .active-slide{
+    opacity: 1;
+    z-index: 2;
+  }
+  .quiz-container{
+    position: relative;
+    height: 200px;
+    margin-top: 40px;
+  }
